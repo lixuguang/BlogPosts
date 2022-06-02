@@ -27,3 +27,4 @@ jobs: # 作业
         with:
           dest-repo: 'lixuguang/BlogSource'
           dest-folder: './source/_posts/'
+          dest-branch: 'master'
