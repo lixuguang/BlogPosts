@@ -18,3 +18,4 @@ jobs: # 作业
           repository: 'BlogSource'
           branch: 'master'
           directory: './posts/'
+          message: 'chore: autopublish ${date}'
