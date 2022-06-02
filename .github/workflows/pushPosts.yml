@@ -14,7 +14,8 @@ jobs: # 作业
       - name: Commit & Push changes # 提交推送文章
         uses: actions-js/push@master
         with:
-          github_token: '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'
+          #github_token: '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'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           repository: 'lixuguang/BlogSource'
           branch: 'master'
           directory: './posts/'
