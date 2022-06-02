@@ -15,6 +15,6 @@ jobs: # 作业
         uses: actions-js/push@master
         with:
           github_token: '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'
-          repository: 'BlogSource'
+          repository: 'lixuguang/BlogSource'
           branch: 'master'
           directory: './posts/'
