@@ -10,7 +10,7 @@ jobs: # 作业
         uses: actions/checkout@v3 # 脚本来自 https://github.com/actions/checkout
       - name: Push Post # 获得文章
         run: |
-          echo Hello, world!
+          echo "GITHUB_SHA=${GITHUB_SHA}" >> sha.txt
       - name: Commit & Push changes # 提交推送文章
         uses: actions-js/push@master
         with:
@@ -18,4 +18,3 @@ jobs: # 作业
           repository: 'BlogSource'
           branch: 'master'
           directory: './posts/'
-          message: 'chore: autopublish ${date}'
