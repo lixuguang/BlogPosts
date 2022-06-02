@@ -28,3 +28,5 @@ jobs: # 作业
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ github.ref }}
+          repository: 'lixuguang/BlogSource'
+          directory: './posts/'
