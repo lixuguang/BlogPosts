@@ -15,7 +15,7 @@ jobs: # 作业
         uses: actions-js/push@master
         with:
           github_token: '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'
-          repository: 'BlogSource'
+          repository: 'https://github.com/lixuguang/BlogSource.git'
           branch: 'master'
           directory: './posts/'
           message: 'chore: autopublish ${date}'
