@@ -17,4 +17,4 @@ jobs: # 作业
           github_token: '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'
           repository: 'BlogSource'
           branch: 'master'
-          directory: './source/_posts/'
+          directory: './posts/'
