@@ -11,3 +11,7 @@ jobs: # 作业
       - name: Push Post # 获得文章
         run: |
           echo Hello, world!
+      - name: Commit & Push changes # 提交推送文章
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
