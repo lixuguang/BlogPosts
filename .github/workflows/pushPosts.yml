@@ -11,6 +11,8 @@ jobs: # 作业
       - name: Push Post # 获得文章
         run: |
           echo "GITHUB_SHA=${GITHUB_SHA}" >> sha.txt
+          git config user.name lixuguang
+          git config user.email lixuguang316@gmail.com
       - name: Commit & Push changes # 提交推送文章
         uses: lixuguang/push@master # 依赖
         with:
