@@ -19,3 +19,5 @@ jobs: # 作业
           repository: 'lixuguang/BlogSource'
           branch: 'master'
           directory: './posts/'
+          author_email: 'lixuguang316@gmail.com'
+          author_name: 'lixuguang316'
