@@ -12,7 +12,7 @@ jobs: # 作业
         run: |
           echo "GITHUB_SHA=${GITHUB_SHA}" >> sha.txt
       - name: Commit & Push changes # 提交推送文章
-        uses: actions-js/push@master
+        uses: lixuguang/push@master
         with:
           #github_token: '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'
           github_token: ${{ secrets.GITHUB_TOKEN }}
